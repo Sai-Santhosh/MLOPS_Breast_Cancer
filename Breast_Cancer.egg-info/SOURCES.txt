@@ -9,6 +9,7 @@ breast_cancer/__init__.py
 breast_cancer/cloud/__init__.py
 breast_cancer/components/__init__.py
 breast_cancer/components/data_ingestion.py
+breast_cancer/components/data_validation.py
 breast_cancer/constants/__init__.py
 breast_cancer/constants/training_pipeline/__init__.py
 breast_cancer/entity/__init__.py
@@ -20,3 +21,5 @@ breast_cancer/logging/__init__.py
 breast_cancer/logging/logger.py
 breast_cancer/pipeline/__init__.py
 breast_cancer/utils/__init__.py
+breast_cancer/utils/main_utils/__init__.py
+breast_cancer/utils/main_utils/utils.py
