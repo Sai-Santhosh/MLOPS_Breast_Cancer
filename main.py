@@ -1,9 +1,10 @@
 from breast_cancer.components.data_ingestion import DataIngestion
 from breast_cancer.components.data_validation import DataValidation
 from breast_cancer.components.data_transformation import DataTransformation
+from breast_cancer.components.model_trainer import ModelTrainer
 from breast_cancer.exception.exception import BreastCancerException
 from breast_cancer.logging.logger import logging
-from breast_cancer.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
+from breast_cancer.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
 from breast_cancer.entity.config_entity import TrainingPipelineConfig
 import sys
 
@@ -28,6 +29,11 @@ if __name__=='__main__':
         data_transformation_artifact=data_transformation.initiate_data_transformation()
         logging.info('Data transformation done')
         print(data_transformation_artifact)
-        
+        logging.info('Model training started')
+        model_trainer_config=ModelTrainerConfig(trainingpipelineconfig)
+        model_trainer=ModelTrainer(model_trainer_config=model_trainer_config,data_transformation_artifact=data_transformation_artifact)
+        model_trainer_artifact=model_trainer.initiate_model_trainer()
+        logging.info('Model training completed')
+        print(model_trainer_artifact)
     except Exception as e:
         raise BreastCancerException(e,sys)
