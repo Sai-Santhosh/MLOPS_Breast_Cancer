@@ -8,7 +8,7 @@ A machine learning project to classify breast cancer using the Wisconsin Breast 
 
 - **Dataset:** Breast Cancer Wisconsin (Diagnostic) dataset
 - **Machine Learning:** Built using Python and Scikit-learn
-- **Deployment:** Fully deployed on AWS EC2 and AWS ECR
+- **Deployment:** Fully deployed on AWS EC2, AWS ECR and AWS S3
 - **MLOps Pipelines:**
   - Data Ingestion
   - Data Validation
