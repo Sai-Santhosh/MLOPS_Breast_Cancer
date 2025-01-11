@@ -1,0 +1,8 @@
+[ 2025-01-11 12:41:07,053 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 12:41:07,061 ] 107 dagshub - INFO - Accessing as Sai-Santhosh
+[ 2025-01-11 12:41:07,430 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sai-Santhosh/MLOPS_Breast_Cancer "HTTP/1.1 200 OK"
+[ 2025-01-11 12:41:07,786 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 12:41:07,791 ] 107 dagshub - INFO - Initialized MLflow to track repo "Sai-Santhosh/MLOPS_Breast_Cancer"
+[ 2025-01-11 12:41:07,792 ] 107 dagshub - INFO - Repository Sai-Santhosh/MLOPS_Breast_Cancer initialized!
+[ 2025-01-11 12:41:26,373 ] 56 root - ERROR - Failed to sync prediction output to S3: 'S3Sync' object has no attribute 'sync_file_to_s3'
+[ 2025-01-11 12:41:26,378 ] 102 root - ERROR - Prediction failed: Error occured in python script name [D:\CreatorsLab\RAG_Projects\MLOPS_Deployment_Breast_Cancer\breast_cancer\pipeline\prediction_pipeline.py] line number [53] error message ['S3Sync' object has no attribute 'sync_file_to_s3']

@@ -1,0 +1,11 @@
+[ 2025-01-11 11:38:54,716 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 11:38:54,732 ] 107 dagshub - INFO - Accessing as Sai-Santhosh
+[ 2025-01-11 11:38:55,130 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sai-Santhosh/MLOPS_Breast_Cancer "HTTP/1.1 200 OK"
+[ 2025-01-11 11:38:55,471 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 11:38:55,476 ] 107 dagshub - INFO - Initialized MLflow to track repo "Sai-Santhosh/MLOPS_Breast_Cancer"
+[ 2025-01-11 11:38:55,478 ] 107 dagshub - INFO - Repository Sai-Santhosh/MLOPS_Breast_Cancer initialized!
+[ 2025-01-11 11:38:59,963 ] 114 fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+

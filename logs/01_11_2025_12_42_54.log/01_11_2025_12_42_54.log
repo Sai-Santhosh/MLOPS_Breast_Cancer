@@ -1,0 +1,10 @@
+[ 2025-01-11 12:43:01,740 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 12:43:01,753 ] 107 dagshub - INFO - Accessing as Sai-Santhosh
+[ 2025-01-11 12:43:02,148 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sai-Santhosh/MLOPS_Breast_Cancer "HTTP/1.1 200 OK"
+[ 2025-01-11 12:43:02,547 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 12:43:02,551 ] 107 dagshub - INFO - Initialized MLflow to track repo "Sai-Santhosh/MLOPS_Breast_Cancer"
+[ 2025-01-11 12:43:02,553 ] 107 dagshub - INFO - Repository Sai-Santhosh/MLOPS_Breast_Cancer initialized!
+[ 2025-01-11 12:43:17,381 ] 18 root - INFO - Successfully synced prediction_output\output.csv to s3://breastcancermlops/prediction_output
+[ 2025-01-11 12:43:17,386 ] 54 root - INFO - Prediction file prediction_output\output.csv synced to S3 bucket at s3://breastcancermlops/prediction_output
+[ 2025-01-11 12:44:20,951 ] 18 root - INFO - Successfully synced prediction_output\output.csv to s3://breastcancermlops/prediction_output
+[ 2025-01-11 12:44:20,952 ] 54 root - INFO - Prediction file prediction_output\output.csv synced to S3 bucket at s3://breastcancermlops/prediction_output

@@ -1,0 +1,27 @@
+[ 2025-01-11 11:50:43,657 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 11:50:43,670 ] 107 dagshub - INFO - Accessing as Sai-Santhosh
+[ 2025-01-11 11:50:44,125 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sai-Santhosh/MLOPS_Breast_Cancer "HTTP/1.1 200 OK"
+[ 2025-01-11 11:50:44,479 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 11:50:44,484 ] 107 dagshub - INFO - Initialized MLflow to track repo "Sai-Santhosh/MLOPS_Breast_Cancer"
+[ 2025-01-11 11:50:44,485 ] 107 dagshub - INFO - Repository Sai-Santhosh/MLOPS_Breast_Cancer initialized!
+[ 2025-01-11 11:51:24,705 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-11 11:51:29,634 ] 62 root - INFO - Performed train test split on the dataframe
+[ 2025-01-11 11:51:29,634 ] 64 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-11 11:51:29,635 ] 72 root - INFO - Exporting train and test file path.
+[ 2025-01-11 11:51:29,665 ] 81 root - INFO - Exported train and test file path.
+[ 2025-01-11 11:51:29,666 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\01_11_2025_11_50_35\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\01_11_2025_11_50_35\\data_ingestion\\ingested\\test.csv')
+[ 2025-01-11 11:51:29,694 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-11 11:51:29,742 ] 33 root - INFO - Required number of columns:3
+[ 2025-01-11 11:51:29,743 ] 34 root - INFO - Data frame has columns:33
+[ 2025-01-11 11:51:29,743 ] 33 root - INFO - Required number of columns:3
+[ 2025-01-11 11:51:29,743 ] 34 root - INFO - Data frame has columns:33
+[ 2025-01-11 11:51:29,844 ] 51 root - INFO - Starting data transformation process.
+[ 2025-01-11 11:51:29,862 ] 66 root - INFO - Encoded target variable successfully.
+[ 2025-01-11 11:51:29,862 ] 37 root - INFO - Creating data transformer object with KNNImputer and StandardScaler.
+[ 2025-01-11 11:51:29,882 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-11 11:51:29,883 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-11 11:51:29,884 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-11 11:51:29,885 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-11 11:51:29,885 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-01-11 11:51:29,886 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-01-11 11:51:29,886 ] 86 root - INFO - Saved transformed data and preprocessing objects successfully.

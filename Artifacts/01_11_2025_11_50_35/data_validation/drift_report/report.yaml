@@ -1,0 +1,99 @@
+'Unnamed: 32':
+  drift_status: true
+  p_value: .nan
+area_mean:
+  drift_status: false
+  p_value: 0.2724410629339041
+area_se:
+  drift_status: false
+  p_value: 0.9978632583787548
+area_worst:
+  drift_status: false
+  p_value: 0.21216492498763473
+compactness_mean:
+  drift_status: false
+  p_value: 0.697488865993923
+compactness_se:
+  drift_status: false
+  p_value: 0.5075773037382892
+compactness_worst:
+  drift_status: false
+  p_value: 0.24773884530835374
+concave points_mean:
+  drift_status: false
+  p_value: 0.275310265431989
+concave points_se:
+  drift_status: false
+  p_value: 0.7236770331971667
+concave points_worst:
+  drift_status: false
+  p_value: 0.4593008956756546
+concavity_mean:
+  drift_status: false
+  p_value: 0.7358691649641967
+concavity_se:
+  drift_status: false
+  p_value: 0.44913335971346774
+concavity_worst:
+  drift_status: false
+  p_value: 0.48626368860002445
+diagnosis:
+  drift_status: false
+  p_value: 0.8658432955766809
+fractal_dimension_mean:
+  drift_status: false
+  p_value: 0.826891587959518
+fractal_dimension_se:
+  drift_status: false
+  p_value: 0.28539803976320516
+fractal_dimension_worst:
+  drift_status: false
+  p_value: 0.5968239114718894
+id:
+  drift_status: false
+  p_value: 0.41249373058532374
+perimeter_mean:
+  drift_status: false
+  p_value: 0.175445887487342
+perimeter_se:
+  drift_status: false
+  p_value: 0.8935476846562276
+perimeter_worst:
+  drift_status: false
+  p_value: 0.17669161376923914
+radius_mean:
+  drift_status: false
+  p_value: 0.2958873923953774
+radius_se:
+  drift_status: false
+  p_value: 0.8937978929752363
+radius_worst:
+  drift_status: false
+  p_value: 0.27466789775079553
+smoothness_mean:
+  drift_status: false
+  p_value: 0.19473739899930842
+smoothness_se:
+  drift_status: false
+  p_value: 0.30386274768109944
+smoothness_worst:
+  drift_status: true
+  p_value: 0.031066543013473946
+symmetry_mean:
+  drift_status: false
+  p_value: 0.6358023172802791
+symmetry_se:
+  drift_status: false
+  p_value: 0.24137070200175023
+symmetry_worst:
+  drift_status: false
+  p_value: 0.09873855436020418
+texture_mean:
+  drift_status: false
+  p_value: 0.4302214318112502
+texture_se:
+  drift_status: true
+  p_value: 0.01009889135092316
+texture_worst:
+  drift_status: false
+  p_value: 0.4255917701963005

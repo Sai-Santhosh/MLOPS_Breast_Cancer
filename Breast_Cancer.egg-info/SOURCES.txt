@@ -7,9 +7,12 @@ Breast_Cancer.egg-info/requires.txt
 Breast_Cancer.egg-info/top_level.txt
 breast_cancer/__init__.py
 breast_cancer/cloud/__init__.py
+breast_cancer/cloud/s3_syncer.py
 breast_cancer/components/__init__.py
 breast_cancer/components/data_ingestion.py
+breast_cancer/components/data_transformation.py
 breast_cancer/components/data_validation.py
+breast_cancer/components/model_trainer.py
 breast_cancer/constants/__init__.py
 breast_cancer/constants/training_pipeline/__init__.py
 breast_cancer/entity/__init__.py
@@ -20,6 +23,12 @@ breast_cancer/exception/exception.py
 breast_cancer/logging/__init__.py
 breast_cancer/logging/logger.py
 breast_cancer/pipeline/__init__.py
+breast_cancer/pipeline/training_pipeline.py
 breast_cancer/utils/__init__.py
 breast_cancer/utils/main_utils/__init__.py
 breast_cancer/utils/main_utils/utils.py
+breast_cancer/utils/main_utils/ml_utils/__init__.py
+breast_cancer/utils/main_utils/ml_utils/metric/__init__.py
+breast_cancer/utils/main_utils/ml_utils/metric/classification_metric.py
+breast_cancer/utils/main_utils/ml_utils/model/__init__.py
+breast_cancer/utils/main_utils/ml_utils/model/estimator.py

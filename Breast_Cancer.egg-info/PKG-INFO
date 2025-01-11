@@ -12,3 +12,8 @@ Requires-Dist: pymongo[srv]==4.10.1
 Requires-Dist: scikit-learn
 Requires-Dist: dill
 Requires-Dist: pyaml
+Requires-Dist: mlflow
+Requires-Dist: dagshub
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-multipart
