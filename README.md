@@ -2,7 +2,7 @@
 
 ![Project Banner](https://via.placeholder.com/1200x300.png?text=Breast+Cancer+Classification+and+MLOps+Deployment)
 
-A machine learning project to classify breast cancer using the Wisconsin Breast Cancer Diagnostic dataset, complete with an end-to-end MLOps deployment on AWS.
+A machine learning project to classify breast cancer using the Wisconsin Breast Cancer Diagnostic dataset, complete with an end-to-end MLOps deployment on AWS. This project covers the entire lifecycle from data ingestion to model deployment.
 
 ---
 
@@ -20,6 +20,7 @@ A machine learning project to classify breast cancer using the Wisconsin Breast 
 - **Prediction Pipeline:** Real-time predictions on unseen data
 - **Logging:** MLflow and Dagshub for model monitoring
 - **Database:** MongoDB for ETL
+- **Model Selection:** XGBoost, Gradient Boost, AdaBoost, Random Forest, and Hyperparameter tuning using GridSearchCV to identify the best-performing model.
 
 ---
 
@@ -93,6 +94,29 @@ A machine learning project to classify breast cancer using the Wisconsin Breast 
 
 ---
 
+## 📜 Implementation Overview
+
+### **Project Timeline**
+
+| Step | Description |
+|------|-------------|
+| 1    | Project Structure Set up With Environment |
+| 2    | GitHub Repository Set Up With VS Code |
+| 3    | Packaging the Project With setup.py |
+| 4    | Logging And Exception Handling Implementation |
+| 5    | Introduction To ETL Pipelines |
+| 6    | Setting Up MongoDB Atlas |
+| 7    | ETL Pipeline Setup With Python |
+| 8    | Data Ingestion Architecture and Implementation |
+| 9    | Data Validation Implementation (Part 1 & 2) |
+| 10   | Data Transformation Architecture and Implementation |
+| 11   | Model Trainer Implementation and Evaluation |
+| 12   | Model Experiment Tracking With MLflow |
+| 13   | Model Deployment on AWS S3, ECR, and EC2 |
+| 14   | Continuous Deployment with GitHub Actions |
+
+---
+
 ## 💻 Installation
 
 ```bash
@@ -130,9 +154,3 @@ $ docker run -p 8000:8000 breastcancer:latest
 Houston, TX  
 📧 Email: saisanthoshvc@rice.edu  
 [GitHub](https://github.com/Sai-Santhosh) | [LinkedIn](https://linkedin.com/in/sai-santhosh)
-
----
-
-## 🎯 Acknowledgments
-
-This project was developed as part of a Machine Learning and MLOps initiative. Special thanks to the community and resources that made this possible.
