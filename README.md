@@ -26,14 +26,14 @@ A machine learning project to classify breast cancer using the Wisconsin Breast 
 
 ## 📂 Dataset Information
 
-| **Characteristics** | **Details** |
-|----------------------|-------------|
-| **Dataset Type**     | Multivariate |
+| **Characteristics** | **Details**      |
+|----------------------|------------------|
+| **Dataset Type**     | Multivariate    |
 | **Subject Area**     | Health and Medicine |
-| **Task**             | Classification |
-| **Features**         | 30 |
-| **Instances**        | 569 |
-| **Feature Type**     | Real |
+| **Task**             | Classification  |
+| **Features**         | 30              |
+| **Instances**        | 569             |
+| **Feature Type**     | Real            |
 
 ---
 
@@ -51,35 +51,52 @@ A machine learning project to classify breast cancer using the Wisconsin Breast 
 
 ## 🌟 Key Visuals
 
-### **Training Pipeline Execution**
-![Training Pipeline](https://via.placeholder.com/1200x600.png?text=Training+Pipeline+Execution)
-
-### **Prediction Pipeline Execution**
-![Prediction Pipeline](https://via.placeholder.com/1200x600.png?text=Prediction+Pipeline+Execution)
-
-### **AWS S3 Outputs**
-![AWS S3](https://via.placeholder.com/1200x600.png?text=AWS+S3+Outputs)
+### Project Architecture
+![Project Structure](https://github.com/Sai-Santhosh/MLOPS_Breast_Cancer/blob/main/Project_Structure.png)
 
 ---
 
-## 📜 Project Workflow
+## 📜 Pipelines
 
-### **1. MLOps Pipelines**
-- **Data Ingestion:** Extracts, transforms, and loads data from MongoDB.
-- **Data Validation:** Ensures the quality of the dataset.
-- **Data Transformation:** Preprocesses data using standard scalers and encoders.
-- **Model Training:** Trains a classification model.
-- **Model Deployment:** Deploys the model for real-time predictions.
+### **1. Data Ingestion**
+![Data Ingestion](https://github.com/Sai-Santhosh/MLOPS_Breast_Cancer/blob/main/data_ingestion.png)
 
-### **2. Deployment Setup**
-- **AWS EC2 & S3**
-- **AWS Elastic Container Registry (ECR)**
-- **Dockerized Application**
+- Extracts raw data from MongoDB.
+- Splits data into training and testing datasets.
+- Saves processed files to feature stores.
 
-### **3. CI/CD Workflows**
-- **Continuous Integration:** Linting and unit testing.
-- **Continuous Delivery:** Builds and pushes Docker images to ECR.
-- **Continuous Deployment:** Runs the application on ECS.
+---
+
+### **2. Data Validation**
+![Data Validation](https://github.com/Sai-Santhosh/MLOPS_Breast_Cancer/blob/main/data_validation.png)
+
+- Validates schema and checks for missing or erroneous data.
+- Generates data drift reports to ensure consistency.
+
+---
+
+### **3. Data Transformation**
+![Data Transformation](https://github.com/Sai-Santhosh/MLOPS_Breast_Cancer/blob/main/data_transformation.png)
+
+- Handles missing values with KNN imputation.
+- Applies SMOTE for handling class imbalances.
+- Saves transformation objects for future predictions.
+
+---
+
+### **4. Model Training**
+![Model Trainer](https://github.com/Sai-Santhosh/MLOPS_Breast_Cancer/blob/main/model_trainer.png)
+
+- Trains models using Random Forest, XGBoost, Gradient Boost, and AdaBoost.
+- Performs hyperparameter tuning using GridSearchCV.
+- Tracks experiments using MLflow for reproducibility.
+
+---
+
+### **5. Model Deployment**
+- Pushes the trained model to AWS S3.
+- Dockerizes the application for scalability.
+- Deploys to AWS ECS via ECR.
 
 ---
 
@@ -148,7 +165,7 @@ $ docker run -p 8000:8000 breastcancer:latest
 
 ---
 
-## 📬 Contact
+## 🛣️ Contact
 
 **Sai Santhosh Venkatesh Charumathi**  
 Houston, TX  
