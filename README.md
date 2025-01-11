@@ -1,7 +1,5 @@
 # Breast Cancer Classification and MLOps Deployment
 
-![Project Banner](https://via.placeholder.com/1200x300.png?text=Breast+Cancer+Classification+and+MLOps+Deployment)
-
 A machine learning project to classify breast cancer using the Wisconsin Breast Cancer Diagnostic dataset, complete with an end-to-end MLOps deployment on AWS. This project covers the entire lifecycle from data ingestion to model deployment.
 
 ---
