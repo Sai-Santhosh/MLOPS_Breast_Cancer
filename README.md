@@ -125,10 +125,10 @@ A machine learning project to classify breast cancer using the Wisconsin Breast 
 | 6    | Setting Up MongoDB Atlas |
 | 7    | ETL Pipeline Setup With Python |
 | 8    | Data Ingestion Architecture and Implementation |
-| 9    | Data Validation Implementation (Part 1 & 2) |
+| 9    | Data Validation Implementation |
 | 10   | Data Transformation Architecture and Implementation |
 | 11   | Model Trainer Implementation and Evaluation |
-| 12   | Model Experiment Tracking With MLflow |
+| 12   | Model Experiment Tracking With MLflow and Dagshub |
 | 13   | Model Deployment on AWS S3, ECR, and EC2 |
 | 14   | Continuous Deployment with GitHub Actions |
 
