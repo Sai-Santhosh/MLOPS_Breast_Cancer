@@ -168,4 +168,4 @@ $ docker run -p 8000:8000 breastcancer:latest
 **Sai Santhosh Venkatesh Charumathi**  
 Houston, TX  
 📧 Email: saisanthoshvc@rice.edu  
-[GitHub](https://github.com/Sai-Santhosh) | [LinkedIn](https://linkedin.com/in/sai-santhosh)
+[GitHub](https://github.com/Sai-Santhosh) | [LinkedIn](https://linkedin.com/in/v-c-sai-santhosh) | [Kaggle](https://www.kaggle.com/vcsaisanthosh) | [HuggingFace](https://huggingface.co/santu24)
