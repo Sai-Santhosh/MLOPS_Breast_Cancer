@@ -1,0 +1,6 @@
+[ 2025-01-11 13:00:45,115 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 13:00:45,134 ] 107 dagshub - INFO - Accessing as Sai-Santhosh
+[ 2025-01-11 13:00:45,530 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Sai-Santhosh/MLOPS_Breast_Cancer "HTTP/1.1 200 OK"
+[ 2025-01-11 13:00:45,899 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-11 13:00:45,905 ] 107 dagshub - INFO - Initialized MLflow to track repo "Sai-Santhosh/MLOPS_Breast_Cancer"
+[ 2025-01-11 13:00:45,907 ] 107 dagshub - INFO - Repository Sai-Santhosh/MLOPS_Breast_Cancer initialized!
